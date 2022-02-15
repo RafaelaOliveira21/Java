@@ -1,0 +1,30 @@
+package br.edu.fatecfranca.exe0;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO code application logic here
+		// criar objeto
+		
+		Carro obj1 = new Carro();
+		obj1.modelo = "Onix";
+		obj1.ano = 2019;
+		obj1.velocidade = 0;
+		obj1.motor = false;
+		
+		// chamar os métodos
+		
+		obj1.mostrar();
+		obj1.ligar();
+		obj1.mostrar();
+		obj1.acelerar(40);
+		obj1.mostrar();
+		obj1.frear(10);
+		obj1.mostrar();
+		obj1.desligar();
+		obj1.mostrar();
+
+		// treinar: crie um obj2 e faça conforme fizemos 
+	}
+
+}
